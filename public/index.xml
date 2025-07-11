@@ -12,7 +12,7 @@
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
-    <lastBuildDate>Wed, 15 Mar 2023 11:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 11 Jul 2025 00:00:00 +0000</lastBuildDate>
     
     
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -22,18 +22,70 @@
     
 
     <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/post/hello/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <title>Fcitx5 Archlinux Hyprland</title>
+      <link>http://localhost:1313/post/fcitx5-archlinux-hyprland/</link>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 &#43;0000</pubDate>
       <author>notyet (Tahoso)</author>
-      <guid>http://localhost:1313/post/hello/</guid>
+      <guid>http://localhost:1313/post/fcitx5-archlinux-hyprland/</guid>
       <description>
-        <![CDATA[<h1>Hello World</h1><p>Author: Tahoso(notyet)</p>
+        <![CDATA[<h1>Fcitx5 Archlinux Hyprland</h1><p>Author: Tahoso(notyet)</p>
         
-          <p>This is a test</p>
+          <p>I recently reinstalled my Arch Linux installation. This means that I will need to set up Fcitx5 on Hyprland again soon. To prepare for this, I&rsquo;ve decided to research and reinstall simultaneously. This blog post documents the results of my research.</p>
+<h3 id="1-install-it">
+<a class="header-anchor" href="#1-install-it"></a>
+1: Install it
+</h3><blockquote>
+<p>Note: By itself, fcitx5 has only a basic framework that just gives English support. If you want to input other languages, such as Chinese or Japanese, you need an Input Method Engine (IME). See Input method#List of available input method editors for a list of available IMEs.</p>
         
-        <hr><p>Published on 2023-03-15 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2023-03-15</p>]]>
+        <hr><p>Published on 2025-04-11 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-07-11</p>]]>
       </description>
+      
+        <category>Guide</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>My Experience With Antivirus on Linux</title>
+      <link>http://localhost:1313/post/my-experience-with-antivirus-on-linux/</link>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 &#43;0000</pubDate>
+      <author>notyet (Tahoso)</author>
+      <guid>http://localhost:1313/post/my-experience-with-antivirus-on-linux/</guid>
+      <description>
+        <![CDATA[<h1>My Experience With Antivirus on Linux</h1><p>Author: Tahoso(notyet)</p>
+        
+          <p>So I installed Anti-Virus software on my Linux system, and the reason behind it is pretty simple: I was bored. Yea! In my opinion, there is no better reason than that. I wanted to have fun tinkering with something, and AV seemed like a good idea at the time. I don&rsquo;t think everyone on Linux needs to have AV, and in fact, I believe it&rsquo;s quite useless on Linux for now. If you&rsquo;re interested in learning more about the subject(AV), you can visit <a href="https://easylinuxtipsproject.blogspot.com/p/security.html#ID1.1">this blog</a>. For me, this was just for testing and learning purposes.</p>
+        
+        <hr><p>Published on 2025-06-18 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-06-18</p>]]>
+      </description>
+      
+        <category>Opinion</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Archlinux Snapper</title>
+      <link>http://localhost:1313/post/archlinux-snapper/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 &#43;0000</pubDate>
+      <author>notyet (Tahoso)</author>
+      <guid>http://localhost:1313/post/archlinux-snapper/</guid>
+      <description>
+        <![CDATA[<h1>Archlinux Snapper</h1><p>Author: Tahoso(notyet)</p>
+        
+          <h1 id="archlinux-snapper-setup">
+<a class="header-anchor" href="#archlinux-snapper-setup"></a>
+Archlinux snapper setup
+</h1><p><strong>Warning: If you break your system by blindly copying and pasting commands, it is not my fault.</strong></p>
+<p><strong>This is just my way of doing this. It works for me, but I can&rsquo;t guarantee it will work for you.</strong></p>
+<p>This is a guide to set up Snapper on Arch Linux for Btrfs if you use the Archinstall suggested partition layout. I will walk you through the process of installing Snapper with that layout <strong>ONLY</strong>.</p>
+        
+        <hr><p>Published on 2025-03-26 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-03-26</p>]]>
+      </description>
+      
+        <category>Guide</category>
       
     </item>
     

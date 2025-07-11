@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Antivirus on Likelyblue</title>
+    <link>http://localhost:1313/tags/antivirus/</link>
+    <description>Recent content from Likelyblue</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    
+    <managingEditor>notyet (Tahoso)</managingEditor>
+    <webMaster>notyet (Tahoso)</webMaster>
+    
+    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
+    
+    <lastBuildDate>Wed, 18 Jun 2025 00:00:00 +0000</lastBuildDate>
+    
+    
+    <atom:link href="http://localhost:1313/tags/antivirus/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>My Experience With Antivirus on Linux</title>
+      <link>http://localhost:1313/post/my-experience-with-antivirus-on-linux/</link>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 &#43;0000</pubDate>
+      <author>notyet (Tahoso)</author>
+      <guid>http://localhost:1313/post/my-experience-with-antivirus-on-linux/</guid>
+      <description>
+        <![CDATA[<h1>My Experience With Antivirus on Linux</h1><p>Author: Tahoso(notyet)</p>
+        
+          <p>So I installed Anti-Virus software on my Linux system, and the reason behind it is pretty simple: I was bored. Yea! In my opinion, there is no better reason than that. I wanted to have fun tinkering with something, and AV seemed like a good idea at the time. I don&rsquo;t think everyone on Linux needs to have AV, and in fact, I believe it&rsquo;s quite useless on Linux for now. If you&rsquo;re interested in learning more about the subject(AV), you can visit <a href="https://easylinuxtipsproject.blogspot.com/p/security.html#ID1.1">this blog</a>. For me, this was just for testing and learning purposes.</p>
+        
+        <hr><p>Published on 2025-06-18 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-06-18</p>]]>
+      </description>
+      
+        <category>Opinion</category>
+      
+    </item>
+    
+  </channel>
+</rss>

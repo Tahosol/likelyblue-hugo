@@ -2,9 +2,10 @@
 title: "{{ replace .Name "-" " " | title }}"
 description: "{{ .Name }}"
 keywords: "{{replace .Name "-" ","}}"
+cover: false
 
 date: {{ .Date }}
-lastmod: {{ .Lastmod }}
+lastmod: {{ .Date }}
 
 math: false
 mermaid: false

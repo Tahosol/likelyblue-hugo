@@ -426,7 +426,7 @@ firework:
         move: ["emit"]
         easing: easeOutExpo
         colors: ["var(--red-1)", "var(--red-2)", "var(--red-3)", "var(--red-4)"]
-        number: 20
+        number: 10
         duration: [1200, 1800]
         shapeOptions:
           radius: [16, 32]
@@ -574,7 +574,7 @@ live2d_widgets:
 
 # https://github.com/CodeByZach/pace
 pace:
-  enable: false
+  enable: true
 
 # Experimental
 # Please turn on pjax to use this feature

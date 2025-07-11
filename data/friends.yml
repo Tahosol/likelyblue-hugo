@@ -1,8 +1,16 @@
 - name: The pizzaman
   url: https://exploitedpizza.info/
-  desc: He love pizza
+  desc: He love exploit the pizza
   image: https://exploitedpizza.info/images/nescafe.jpg
-- name: D-Sketon
-  url: https://d-sketon.github.io/astro-theme-reimu/
-  desc: Astro 建站
-  image: https://d-sketon.github.io/avatar/avatar.webp
+- name: OkayD
+  url: https://okayd.neocities.org/
+  desc: Lua enjoyer? Nah! Just a roblox dev
+  image: https://okayd.neocities.org/hungydevil.png
+- name: oadeep
+  url: https://oadeep.github.io/oa/
+  desc: He is addicted
+  image: https://oadeep.github.io/oa/oadeapdog.png
+- name: jotakak
+  url: https://jotakak.bearblog.dev/
+  desc: She need help
+  image:
