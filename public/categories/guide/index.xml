@@ -12,12 +12,37 @@
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
-    <lastBuildDate>Fri, 11 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Jul 2025 15:24:01 -0400</lastBuildDate>
     
     
     <atom:link href="http://localhost:1313/categories/guide/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
+    
+    
+
+    <item>
+      <title>Archlinux Snapper</title>
+      <link>http://localhost:1313/post/archlinux-snapper/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 &#43;0000</pubDate>
+      <author>notyet (Tahoso)</author>
+      <guid>http://localhost:1313/post/archlinux-snapper/</guid>
+      <description>
+        <![CDATA[<h1>Archlinux Snapper</h1><p>Author: Tahoso(notyet)</p>
+        
+          <h1 id="archlinux-snapper-setup">
+<a class="header-anchor" href="#archlinux-snapper-setup"></a>
+Archlinux snapper setup
+</h1><p><strong>Warning: If you break your system by blindly copying and pasting commands, it is not my fault.</strong></p>
+<p><strong>This is just my way of doing this. It works for me, but I can&rsquo;t guarantee it will work for you.</strong></p>
+<p>This is a guide to set up Snapper on Arch Linux for Btrfs if you use the Archinstall suggested partition layout. I will walk you through the process of installing Snapper with that layout <strong>ONLY</strong>.</p>
+        
+        <hr><p>Published on 2025-03-26 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-07-11</p>]]>
+      </description>
+      
+        <category>Guide</category>
+      
+    </item>
     
     
 
@@ -38,31 +63,6 @@
 <p>Note: By itself, fcitx5 has only a basic framework that just gives English support. If you want to input other languages, such as Chinese or Japanese, you need an Input Method Engine (IME). See Input method#List of available input method editors for a list of available IMEs.</p>
         
         <hr><p>Published on 2025-04-11 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-07-11</p>]]>
-      </description>
-      
-        <category>Guide</category>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>Archlinux Snapper</title>
-      <link>http://localhost:1313/post/archlinux-snapper/</link>
-      <pubDate>Wed, 26 Mar 2025 00:00:00 &#43;0000</pubDate>
-      <author>notyet (Tahoso)</author>
-      <guid>http://localhost:1313/post/archlinux-snapper/</guid>
-      <description>
-        <![CDATA[<h1>Archlinux Snapper</h1><p>Author: Tahoso(notyet)</p>
-        
-          <h1 id="archlinux-snapper-setup">
-<a class="header-anchor" href="#archlinux-snapper-setup"></a>
-Archlinux snapper setup
-</h1><p><strong>Warning: If you break your system by blindly copying and pasting commands, it is not my fault.</strong></p>
-<p><strong>This is just my way of doing this. It works for me, but I can&rsquo;t guarantee it will work for you.</strong></p>
-<p>This is a guide to set up Snapper on Arch Linux for Btrfs if you use the Archinstall suggested partition layout. I will walk you through the process of installing Snapper with that layout <strong>ONLY</strong>.</p>
-        
-        <hr><p>Published on 2025-03-26 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-03-26</p>]]>
       </description>
       
         <category>Guide</category>
