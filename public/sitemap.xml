@@ -3,7 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-07-11T15:24:01-04:00</lastmod>
+    <lastmod>2025-07-11T16:56:15-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/my-guide-to-audio-metadata-perfection/</loc>
+    <lastmod>2025-07-11T16:56:15-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/archives/</loc>
+    <lastmod>2025-07-11T12:57:55-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/antivirus/</loc>
     <lastmod>2025-07-11T15:24:01-04:00</lastmod>
@@ -46,9 +52,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/snapper/</loc>
     <lastmod>2025-07-11T15:24:01-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/archives/</loc>
-    <lastmod>2025-07-11T12:57:55-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/friend/</loc>
     <lastmod>2025-07-11T15:24:01-04:00</lastmod>
