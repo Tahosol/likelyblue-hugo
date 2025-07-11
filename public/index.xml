@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Likelyblue</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content from Likelyblue</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    
+    <managingEditor>notyet (Tahoso)</managingEditor>
+    <webMaster>notyet (Tahoso)</webMaster>
+    
+    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
+    
+    <lastBuildDate>Wed, 15 Mar 2023 11:00:00 -0700</lastBuildDate>
+    
+    
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/post/hello/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <author>notyet (Tahoso)</author>
+      <guid>http://localhost:1313/post/hello/</guid>
+      <description>
+        <![CDATA[<h1>Hello World</h1><p>Author: Tahoso(notyet)</p>
+        
+          <p>This is a test</p>
+        
+        <hr><p>Published on 2023-03-15 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2023-03-15</p>]]>
+      </description>
+      
+    </item>
+    
+  </channel>
+</rss>
