@@ -8,11 +8,11 @@
   name="viewport"
   content="width=device-width, initial-scale=1, shrink-to-fit=no"
 /><title>
-  My Guide to Audio Metadata Perfection | Tahoso
+  My Guide to Achieving Audio Metadata Perfection on Linux | Tahoso
 </title>
 <meta
   name="description"
-  content="my-guide-to-audio-metadata-perfection"
+  content="A general guide to search for metadata for audio on linux"
 /><script>
   window.siteConfig = JSON.parse("{\"anchor_icon\":null,\"base\":\"http://localhost:1313/\",\"clipboard\":{\"copyright\":{\"count\":50,\"enable\":false,\"license_type\":\"by-nc-sa\"},\"fail\":{\"en\":\"Copy failed (ﾟ⊿ﾟ)ﾂ\",\"ja\":\"コピー失敗 (ﾟ⊿ﾟ)ﾂ\",\"zh-cn\":\"复制失败 (ﾟ⊿ﾟ)ﾂ\",\"zh-tw\":\"複製失敗 (ﾟ⊿ﾟ)ﾂ\"},\"success\":{\"en\":\"Copy successfully (*^▽^*)\",\"ja\":\"コピー成功 (*^▽^*)\",\"zh-cn\":\"复制成功 (*^▽^*)\",\"zh-tw\":\"複製成功 (*^▽^*)\"}},\"code_block\":{\"expand\":true},\"icon_font\":\"4552607_0khxww3tj3q9\",\"outdate\":{\"daysago\":180,\"enable\":true,\"message\":{\"en\":\"This article was last updated on {time}. Please note that the content may no longer be applicable.\",\"ja\":\"この記事は最終更新日：{time}。記載内容が現在有効でない可能性がありますのでご注意ください。\",\"zh-cn\":\"本文最后更新于 {time}，请注意文中内容可能已不适用。\",\"zh-tw\":\"本文最後更新於 {time}，請注意文中內容可能已不適用。\"}}}");
   
@@ -100,9 +100,9 @@ This article does not have a corresponding language version
   </nav>
   <nav id="sub-nav"></nav></div>
 <header id="header"><picture></picture>
-    <img style="visibility:hidden"></img><div id="header-outer">
+    <img  fetchpriority="high" src="/images/my-guide-to-audio-metadata-perfection/cover.jpg" alt="My Guide to Achieving Audio Metadata Perfection on Linux"><div id="header-outer">
     <div id="header-title"><a href="/" id="logo">
-            <h1 data-aos="slide-up">My Guide to Audio Metadata Perfection</h1>
+            <h1 data-aos="slide-up">My Guide to Achieving Audio Metadata Perfection on Linux</h1>
           </a><h2 id="subtitle-wrap" data-aos="slide-down"></h2></div>
   </div>
 </header><div id="content"
@@ -139,7 +139,7 @@ This article does not have a corresponding language version
   </a>
   <a class="sidebar-state-tag" href="/tags/" aria-label="sidebar-state-tag-link">
     <div>Tags</div>
-    <div class="sidebar-state-number">7</div>
+    <div class="sidebar-state-number">9</div>
   </a>
 </div>
 <div class="sidebar-social"><div class="icon-github sidebar-social-icon">
@@ -216,27 +216,56 @@ This article does not have a corresponding language version
 </div>
 <div class="article-category"><a
       class="article-category-link"
-      href="/categories/"
+      href="/categories/guide"
       data-aos="zoom-in"
-      ></a
+      >GUIDE</a
     ></div>
 </div>
     <div class="hr-line"></div><div class="e-content article-entry" itemprop="articleBody"><blockquote id="outdate-blockquote" style="display: none;">
           <p></p>
-        </blockquote><p>My Guide to Audio Metadata Perfection</p></div>
+        </blockquote><h1 id="what-is-audio-metadata">
+<a class="header-anchor" href="#what-is-audio-metadata"></a>
+What Is Audio Metadata?
+</h1><p>If you are familiar with metadata, you can skip this part, as it is essentially the same for audio files. Metadata is designed to add additional information to a file. For audio, this information can include the title, artist, album, track number, genre, cover art, and more. Having this metadata is useful because it aids in organizing your files effectively.</p>
+<h1 id="why-do-you-need-it">
+<a class="header-anchor" href="#why-do-you-need-it"></a>
+Why Do You Need It?
+</h1><p>As mentioned previously, having metadata greatly assists in organizing all your files. How does it work? Most modern local music players can read the data in your audio files and sort them by album, complete with album covers.</p>
+<p><img src="../../images/my-guide-to-audio-metadata-perfection/my-guide-to-audio-metadata-perfection-1.png" alt="An example with a few music albums in Elisa"></p>
+<p>This image shows an example from <a href="https://apps.kde.org/elisa/">Elisa</a>. With audio metadata, you can achieve an experience that is as good as, or even better than, streaming services on your phone, desktop, or local server. You can also embed synced lyrics into an audio file as metadata, as shown in the following image:</p>
+<p><img src="../../images/my-guide-to-audio-metadata-perfection/my-guide-to-audio-metadata-perfection-2.png" alt="An example with synced lyrics of the song if there was an endpoint"></p>
+<h1 id="how-can-you-get-music-metadata">
+<a class="header-anchor" href="#how-can-you-get-music-metadata"></a>
+How Can You Get Music Metadata?
+</h1><p>It is quite simple. If you download music from my app, you probably do not need to do anything other than enjoy the music. However, it isn&rsquo;t all sunshine and rainbows. My app isn&rsquo;t perfect; in fact, I would say it is quite buggy. Therefore, I will show you some other ways to obtain music metadata.</p>
+<p>The first source for metadata that comes to mind when people ask me is always the <a href="http://musicbrainz.org/">MusicBrainz database</a>.</p>
+<blockquote>
+<p>MusicBrainz is a MetaBrainz project that aims to create a collaborative music database that is similar to the freedb project. MusicBrainz was founded in response to the restrictions placed on the Compact Disc Database (CDDB), a database for software applications to look up audio CD information on the Internet. MusicBrainz has expanded its goals beyond serving as a CD metadata repository, evolving into a structured online database for music information, including details about artists, performers, and songwriters.</p></blockquote>
+<p><a href="https://en.wikipedia.org/wiki/MusicBrainz">source</a></p>
+<p>There are many ways to use their database: the official <a href="https://picard.musicbrainz.org/">app</a>, manual entry with <a href="https://kid3.kde.org/">Kid3</a>, use python with <a href="https://beets.io/">Beets</a>, and more. I will not teach you how to use any of these, as they have their own documentation available.</p>
+<p>Unfortunately, MusicBrainz isn&rsquo;t perfect, it does not provide any lyrics. Consequently, we need a separate database for lyrics. In my opinion, the best FOSS database is <a href="https://lrclib.net/">lrclib</a>. If you want to use it, there is an official app called <a href="https://github.com/tranxuanthang/lrcget">lrcget</a>. It is super easy to use and contribute to. You can also use the CLI <a href="https://github.com/musdx/lyric-adder">script</a> I created for lrclib.</p>
+<p>That concludes my guide. I hope you enjoy this journey!</p>
+</div>
     <footer class="article-footer"><ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in">
       <a
         class="article-tag-list-link"
-        href="/tags/"
+        href="/tags/linux"
         rel="tag"
-        ></a
+        >LINUX</a
       >
     </li><li class="article-tag-list-item" data-aos="zoom-in">
       <a
         class="article-tag-list-link"
-        href="/tags/"
+        href="/tags/audio"
         rel="tag"
-        ></a
+        >AUDIO</a
+      >
+    </li><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/metadata"
+        rel="tag"
+        >METADATA</a
       >
     </li></ul>
 </footer>
@@ -306,7 +335,7 @@ This article does not have a corresponding language version
   </a>
   <a class="sidebar-state-tag" href="/tags/" aria-label="sidebar-state-tag-link">
     <div>Tags</div>
-    <div class="sidebar-state-number">7</div>
+    <div class="sidebar-state-number">9</div>
   </a>
 </div>
 <div class="sidebar-social"><div class="icon-github sidebar-social-icon">
@@ -388,10 +417,10 @@ This article does not have a corresponding language version
   <div><script data-pjax>
         window.REIMU_POST = {
           author: "Tahoso",
-          title: "My Guide to Audio Metadata Perfection",
+          title: "My Guide to Achieving Audio Metadata Perfection on Linux",
           url: "http:\/\/localhost:1313\/post\/my-guide-to-audio-metadata-perfection\/",
-          description: "my-guide-to-audio-metadata-perfection",
-          cover: "http:\/\/localhost:1313\/images\/cover.webp",
+          description: "A general guide to search for metadata for audio on linux",
+          cover: "http:\/\/localhost:1313\/images\/my-guide-to-audio-metadata-perfection\/cover.jpg",
         };
       </script><script src="/js/insert_highlight.js" data-pjax></script><script type="module" data-pjax>const PhotoSwipeLightbox = (await safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js", "sha384-DiL6M\/gG\u002bwmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF\/N6lrZi\/")).default;const pswp = () => {
           if (_$$('.article-entry a.article-gallery-item').length > 0) {

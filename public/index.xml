@@ -12,7 +12,7 @@
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
-    <lastBuildDate>Fri, 11 Jul 2025 17:12:02 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 11 Jul 2025 17:52:33 -0400</lastBuildDate>
     
     
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -22,20 +22,27 @@
     
 
     <item>
-      <title>My Guide to Audio Metadata Perfection</title>
+      <title>My Guide to Achieving Audio Metadata Perfection on Linux</title>
       <link>http://localhost:1313/post/my-guide-to-audio-metadata-perfection/</link>
       <pubDate>Fri, 11 Jul 2025 16:56:15 -0400</pubDate>
       <author>notyet (Tahoso)</author>
       <guid>http://localhost:1313/post/my-guide-to-audio-metadata-perfection/</guid>
       <description>
-        <![CDATA[<h1>My Guide to Audio Metadata Perfection</h1><p>Author: Tahoso(notyet)</p>
+        <![CDATA[<h1>My Guide to Achieving Audio Metadata Perfection on Linux</h1><p>Author: Tahoso(notyet)</p>
         
-          <p>My Guide to Audio Metadata Perfection</p>
+          <h1 id="what-is-audio-metadata">
+<a class="header-anchor" href="#what-is-audio-metadata"></a>
+What Is Audio Metadata?
+</h1><p>If you are familiar with metadata, you can skip this part, as it is essentially the same for audio files. Metadata is designed to add additional information to a file. For audio, this information can include the title, artist, album, track number, genre, cover art, and more. Having this metadata is useful because it aids in organizing your files effectively.</p>
+<h1 id="why-do-you-need-it">
+<a class="header-anchor" href="#why-do-you-need-it"></a>
+Why Do You Need It?
+</h1><p>As mentioned previously, having metadata greatly assists in organizing all your files. How does it work? Most modern local music players can read the data in your audio files and sort them by album, complete with album covers.</p>
         
         <hr><p>Published on 2025-07-11 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-07-11</p>]]>
       </description>
       
-        <category></category>
+        <category>Guide</category>
       
     </item>
     
