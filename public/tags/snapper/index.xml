@@ -7,8 +7,8 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     
-    <managingEditor>notyet (Tahoso)</managingEditor>
-    <webMaster>notyet (Tahoso)</webMaster>
+    <managingEditor>tahoso@likely.blue (Tahoso)</managingEditor>
+    <webMaster>tahoso@likely.blue (Tahoso)</webMaster>
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
@@ -25,10 +25,10 @@
       <title>Archlinux Snapper</title>
       <link>http://localhost:1313/post/archlinux-snapper/</link>
       <pubDate>Wed, 26 Mar 2025 00:00:00 &#43;0000</pubDate>
-      <author>notyet (Tahoso)</author>
+      <author>tahoso@likely.blue (Tahoso)</author>
       <guid>http://localhost:1313/post/archlinux-snapper/</guid>
       <description>
-        <![CDATA[<h1>Archlinux Snapper</h1><p>Author: Tahoso(notyet)</p>
+        <![CDATA[<h1>Archlinux Snapper</h1><p>Author: Tahoso(tahoso@likely.blue)</p>
         
           <h1 id="archlinux-snapper-setup">
 <a class="header-anchor" href="#archlinux-snapper-setup"></a>

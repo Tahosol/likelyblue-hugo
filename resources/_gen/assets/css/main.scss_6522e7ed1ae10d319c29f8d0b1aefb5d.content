@@ -309,6 +309,14 @@ body [data-aos="zoom-in"] {
   content: "\e619";
 }
 
+.icon-discord:before {
+  content: "\e60d";
+}
+
+.icon-email:before {
+  content: "\e63c";
+}
+
 .sidebar-btn-wrapper .sidebar-toc-btn:before {
   font-family: "iconfont";
   content: "\e633";
@@ -3069,6 +3077,10 @@ mjx-container::-webkit-scrollbar {
   transform: scale(1.2);
 }
 
+.icon-email {
+  color: var(--red-2);
+}
+
 .icon-github {
   color: #191717;
   transition: 1;
@@ -3076,6 +3088,10 @@ mjx-container::-webkit-scrollbar {
 
 [data-theme="dark"] .icon-github {
   color: #bc88ff;
+}
+
+.icon-discord {
+  color: #7289da;
 }
 
 .sidebar-menu {

@@ -27,7 +27,7 @@ dateFormat: "2006-01-02"
 timeFormat: "2006-01-02 15:04:05"
 
 author: Tahoso
-email: notyet
+email: tahoso@likely.blue
 description: "A random dev from the internet"
 subtitle: "It is likely that this world is blue"
 
@@ -107,7 +107,7 @@ footer:
 sidebar: right
 
 social:
-  # email: mailto:xxx@gmail.com
+  email: mailto:tahoso@likely.blue
   github: https://github.com/musdx
   # google: https://plus.google.com/yourname
   # twitter: https://twitter.com/yourname
@@ -130,7 +130,7 @@ social:
   # stackoverflow: https://stackoverflow.com/users/yourname
   # keybase: https://keybase.io/yourname
   # telegram: https://t.me/yourname
-  # discord: https://discordapp.com/users/yourname
+  discord: https://discordapp.com/users/582754517326626817
   # steam: https://steamcommunity.com/id/yourname
 
 widgets:
