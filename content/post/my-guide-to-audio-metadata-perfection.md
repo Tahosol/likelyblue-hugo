@@ -2,7 +2,7 @@
 title: "My Guide to Achieving Audio Metadata Perfection on Linux"
 description: "A general guide to search for metadata for audio on linux"
 keywords: "my,guide,audio,metadata,perfection,linux"
-cover: ../../images/my-guide-to-audio-metadata-perfection/cover.jpg
+cover: ../../images/my-guide-to-audio-metadata-perfection/cover.png
 
 date: 2025-07-11T16:56:15-04:00
 lastmod: 2025-07-11T16:56:15-04:00
