@@ -2,7 +2,7 @@
 title: "Fcitx5 Archlinux Hyprland"
 description: "How to setup fcitx5 on archlinux hyprland?"
 keywords: "fcitx5,archlinux,hyprland"
-cover: "https://hypr.land/ricing_competitions/1/amadeus.webp"
+cover: ../../images/fcitx5-archlinux-hyprland/cover.webp
 
 date: 2025-04-11
 lastmod: 2025-07-11

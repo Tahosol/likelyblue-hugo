@@ -2,7 +2,7 @@
 title: "My Experience With Antivirus on Linux"
 description: "My experience with antivirus on linux"
 keywords: "my,experience,with,antivirus,on,linux"
-cover: "https://plus.unsplash.com/premium_photo-1714618835760-5b2175ad3249?q=80&w=2978&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+cover: ../../images/my-experience-with-antivirus-on-linux/cover.jpg
 
 date: 2025-06-18
 lastmod: 2025-06-18

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Archlinux on Likelyblue</title>
-    <link>http://localhost:1313/tags/archlinux/</link>
+    <link>https://likely.blue/tags/archlinux/</link>
     <description>Recent content from Likelyblue</description>
     <generator>Hugo</generator>
     <language>en-us</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Fri, 11 Jul 2025 15:24:01 -0400</lastBuildDate>
     
     
-    <atom:link href="http://localhost:1313/tags/archlinux/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://likely.blue/tags/archlinux/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,10 +23,10 @@
 
     <item>
       <title>Archlinux Snapper</title>
-      <link>http://localhost:1313/post/archlinux-snapper/</link>
+      <link>https://likely.blue/post/archlinux-snapper/</link>
       <pubDate>Wed, 26 Mar 2025 00:00:00 &#43;0000</pubDate>
       <author>tahoso@likely.blue (Tahoso)</author>
-      <guid>http://localhost:1313/post/archlinux-snapper/</guid>
+      <guid>https://likely.blue/post/archlinux-snapper/</guid>
       <description>
         <![CDATA[<h1>Archlinux Snapper</h1><p>Author: Tahoso(tahoso@likely.blue)</p>
         
@@ -37,7 +37,7 @@ Archlinux snapper setup
 <p><strong>This is just my way of doing this. It works for me, but I can&rsquo;t guarantee it will work for you.</strong></p>
 <p>This is a guide to set up Snapper on Arch Linux for Btrfs if you use the Archinstall suggested partition layout. I will walk you through the process of installing Snapper with that layout <strong>ONLY</strong>.</p>
         
-        <hr><p>Published on 2025-03-26 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-07-11</p>]]>
+        <hr><p>Published on 2025-03-26 at <a href='https://likely.blue/'>Likelyblue</a>, last modified on 2025-07-11</p>]]>
       </description>
       
         <category>Guide</category>
@@ -48,10 +48,10 @@ Archlinux snapper setup
 
     <item>
       <title>Fcitx5 Archlinux Hyprland</title>
-      <link>http://localhost:1313/post/fcitx5-archlinux-hyprland/</link>
+      <link>https://likely.blue/post/fcitx5-archlinux-hyprland/</link>
       <pubDate>Fri, 11 Apr 2025 00:00:00 &#43;0000</pubDate>
       <author>tahoso@likely.blue (Tahoso)</author>
-      <guid>http://localhost:1313/post/fcitx5-archlinux-hyprland/</guid>
+      <guid>https://likely.blue/post/fcitx5-archlinux-hyprland/</guid>
       <description>
         <![CDATA[<h1>Fcitx5 Archlinux Hyprland</h1><p>Author: Tahoso(tahoso@likely.blue)</p>
         
@@ -62,7 +62,7 @@ Archlinux snapper setup
 </h3><blockquote>
 <p>Note: By itself, fcitx5 has only a basic framework that just gives English support. If you want to input other languages, such as Chinese or Japanese, you need an Input Method Engine (IME). See Input method#List of available input method editors for a list of available IMEs.</p>
         
-        <hr><p>Published on 2025-04-11 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-07-11</p>]]>
+        <hr><p>Published on 2025-04-11 at <a href='https://likely.blue/'>Likelyblue</a>, last modified on 2025-07-11</p>]]>
       </description>
       
         <category>Guide</category>

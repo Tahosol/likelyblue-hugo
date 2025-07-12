@@ -2,67 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/audio/</loc>
+    <loc>https://likely.blue/tags/audio/</loc>
     <lastmod>2025-07-12T12:10:48-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://likely.blue/categories/</loc>
     <lastmod>2025-07-12T12:10:48-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/guide/</loc>
+    <loc>https://likely.blue/categories/guide/</loc>
     <lastmod>2025-07-12T12:10:48-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://likely.blue/</loc>
     <lastmod>2025-07-12T12:10:48-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>https://likely.blue/tags/linux/</loc>
     <lastmod>2025-07-12T12:10:48-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/metadata/</loc>
+    <loc>https://likely.blue/tags/metadata/</loc>
     <lastmod>2025-07-12T12:10:48-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/my-guide-to-audio-metadata-perfection/</loc>
+    <loc>https://likely.blue/post/my-guide-to-audio-metadata-perfection/</loc>
     <lastmod>2025-07-12T12:10:48-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://likely.blue/tags/</loc>
     <lastmod>2025-07-12T12:10:48-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://likely.blue/archives/</loc>
     <lastmod>2025-07-11T17:12:02-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://likely.blue/about/</loc>
     <lastmod>2025-07-12T12:10:48-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/friend/</loc>
+    <loc>https://likely.blue/friend/</loc>
     <lastmod>2025-07-12T12:10:48-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/antivirus/</loc>
+    <loc>https://likely.blue/tags/antivirus/</loc>
     <lastmod>2025-07-11T15:24:01-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/clamav/</loc>
+    <loc>https://likely.blue/tags/clamav/</loc>
     <lastmod>2025-07-11T15:24:01-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/my-experience-with-antivirus-on-linux/</loc>
+    <loc>https://likely.blue/post/my-experience-with-antivirus-on-linux/</loc>
     <lastmod>2025-07-11T15:24:01-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/opinion/</loc>
+    <loc>https://likely.blue/categories/opinion/</loc>
     <lastmod>2025-07-11T15:24:01-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/archlinux/</loc>
+    <loc>https://likely.blue/tags/archlinux/</loc>
     <lastmod>2025-07-11T15:24:01-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/fcitx5-archlinux-hyprland/</loc>
+    <loc>https://likely.blue/post/fcitx5-archlinux-hyprland/</loc>
     <lastmod>2025-07-11T15:24:01-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/language/</loc>
+    <loc>https://likely.blue/tags/language/</loc>
     <lastmod>2025-07-11T15:24:01-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/archlinux-snapper/</loc>
+    <loc>https://likely.blue/post/archlinux-snapper/</loc>
     <lastmod>2025-07-11T15:24:01-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/rollback/</loc>
+    <loc>https://likely.blue/tags/rollback/</loc>
     <lastmod>2025-07-11T15:24:01-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/snapper/</loc>
+    <loc>https://likely.blue/tags/snapper/</loc>
     <lastmod>2025-07-11T15:24:01-04:00</lastmod>
   </url>
 </urlset>

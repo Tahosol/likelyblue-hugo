@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Opinion on Likelyblue</title>
-    <link>http://localhost:1313/categories/opinion/</link>
+    <link>https://likely.blue/categories/opinion/</link>
     <description>Recent content from Likelyblue</description>
     <generator>Hugo</generator>
     <language>en-us</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Fri, 11 Jul 2025 15:24:01 -0400</lastBuildDate>
     
     
-    <atom:link href="http://localhost:1313/categories/opinion/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://likely.blue/categories/opinion/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,16 +23,16 @@
 
     <item>
       <title>My Experience With Antivirus on Linux</title>
-      <link>http://localhost:1313/post/my-experience-with-antivirus-on-linux/</link>
+      <link>https://likely.blue/post/my-experience-with-antivirus-on-linux/</link>
       <pubDate>Wed, 18 Jun 2025 00:00:00 &#43;0000</pubDate>
       <author>tahoso@likely.blue (Tahoso)</author>
-      <guid>http://localhost:1313/post/my-experience-with-antivirus-on-linux/</guid>
+      <guid>https://likely.blue/post/my-experience-with-antivirus-on-linux/</guid>
       <description>
         <![CDATA[<h1>My Experience With Antivirus on Linux</h1><p>Author: Tahoso(tahoso@likely.blue)</p>
         
           <p>So I installed Anti-Virus software on my Linux system, and the reason behind it is pretty simple: I was bored. Yea! In my opinion, there is no better reason than that. I wanted to have fun tinkering with something, and AV seemed like a good idea at the time. I don&rsquo;t think everyone on Linux needs to have AV, and in fact, I believe it&rsquo;s quite useless on Linux for now. If you&rsquo;re interested in learning more about the subject(AV), you can visit <a href="https://easylinuxtipsproject.blogspot.com/p/security.html#ID1.1">this blog</a>. For me, this was just for testing and learning purposes.</p>
         
-        <hr><p>Published on 2025-06-18 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-07-11</p>]]>
+        <hr><p>Published on 2025-06-18 at <a href='https://likely.blue/'>Likelyblue</a>, last modified on 2025-07-11</p>]]>
       </description>
       
         <category>Opinion</category>

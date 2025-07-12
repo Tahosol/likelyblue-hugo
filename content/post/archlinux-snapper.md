@@ -2,7 +2,7 @@
 title: "Archlinux Snapper"
 description: "This is a guide to set up Snapper on Arch Linux for Btrfs if you use the Archinstall suggested partition layout."
 keywords: "archlinux,snapper"
-cover: "https://itsfoss.com/content/images/wordpress/2022/09/grub-btrfs-snapshot-list.png"
+cover: ../../images/archlinux-snapper/cover.png
 
 date: 2025-03-26
 lastmod: 2025-03-26
@@ -80,7 +80,7 @@ List all subvolume:
     sudo btrfs subvol list /
 
 
-![List of subvolume](https://screenshots.waylonwalker.com/btrfs-subvol-get-default.webp) image from [waylonwalker](https://waylonwalker.com/setting-up-snapper-on-arch/##sudo+btrfs+subvol+list+/)
+![List of subvolume](../../images/archlinux-snapper/btrfs-subvol-get-default.webp) image from [waylonwalker](https://waylonwalker.com/setting-up-snapper-on-arch/##sudo+btrfs+subvol+list+/)
 
 Set @ as default:
 
