@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Audio on Likelyblue</title>
-    <link>https://likely.blue/tags/audio/</link>
+    <link>http://localhost:1313/tags/audio/</link>
     <description>Recent content from Likelyblue</description>
     <generator>Hugo</generator>
     <language>en-us</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Sat, 12 Jul 2025 12:10:48 -0400</lastBuildDate>
     
     
-    <atom:link href="https://likely.blue/tags/audio/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="http://localhost:1313/tags/audio/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,10 +23,10 @@
 
     <item>
       <title>My Guide to Achieving Audio Metadata Perfection on Linux</title>
-      <link>https://likely.blue/post/my-guide-to-audio-metadata-perfection/</link>
+      <link>http://localhost:1313/post/my-guide-to-audio-metadata-perfection/</link>
       <pubDate>Fri, 11 Jul 2025 16:56:15 -0400</pubDate>
       <author>tahoso@likely.blue (Tahoso)</author>
-      <guid>https://likely.blue/post/my-guide-to-audio-metadata-perfection/</guid>
+      <guid>http://localhost:1313/post/my-guide-to-audio-metadata-perfection/</guid>
       <description>
         <![CDATA[<h1>My Guide to Achieving Audio Metadata Perfection on Linux</h1><p>Author: Tahoso(tahoso@likely.blue)</p>
         
@@ -39,7 +39,7 @@ What Is Audio Metadata?
 Why Do You Need It?
 </h1><p>As mentioned previously, having metadata greatly assists in organizing all your files. How does it work? Most modern local music players can read the data in your audio files and sort them by album, complete with album covers.</p>
         
-        <hr><p>Published on 2025-07-11 at <a href='https://likely.blue/'>Likelyblue</a>, last modified on 2025-07-12</p>]]>
+        <hr><p>Published on 2025-07-11 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-07-12</p>]]>
       </description>
       
         <category>Guide</category>

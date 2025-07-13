@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Language on Likelyblue</title>
-    <link>https://likely.blue/tags/language/</link>
+    <link>http://localhost:1313/tags/language/</link>
     <description>Recent content from Likelyblue</description>
     <generator>Hugo</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
-    <lastBuildDate>Fri, 11 Jul 2025 15:24:01 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 12 Jul 2025 17:21:36 -0400</lastBuildDate>
     
     
-    <atom:link href="https://likely.blue/tags/language/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="http://localhost:1313/tags/language/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,10 +23,10 @@
 
     <item>
       <title>Fcitx5 Archlinux Hyprland</title>
-      <link>https://likely.blue/post/fcitx5-archlinux-hyprland/</link>
+      <link>http://localhost:1313/post/fcitx5-archlinux-hyprland/</link>
       <pubDate>Fri, 11 Apr 2025 00:00:00 &#43;0000</pubDate>
       <author>tahoso@likely.blue (Tahoso)</author>
-      <guid>https://likely.blue/post/fcitx5-archlinux-hyprland/</guid>
+      <guid>http://localhost:1313/post/fcitx5-archlinux-hyprland/</guid>
       <description>
         <![CDATA[<h1>Fcitx5 Archlinux Hyprland</h1><p>Author: Tahoso(tahoso@likely.blue)</p>
         
@@ -37,7 +37,7 @@
 </h3><blockquote>
 <p>Note: By itself, fcitx5 has only a basic framework that just gives English support. If you want to input other languages, such as Chinese or Japanese, you need an Input Method Engine (IME). See Input method#List of available input method editors for a list of available IMEs.</p>
         
-        <hr><p>Published on 2025-04-11 at <a href='https://likely.blue/'>Likelyblue</a>, last modified on 2025-07-11</p>]]>
+        <hr><p>Published on 2025-04-11 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-07-12</p>]]>
       </description>
       
         <category>Guide</category>
