@@ -1,11 +1,11 @@
 - name: The pizzaman
   url: https://exploitedpizza.info/
   desc: He love exploit the pizza
-  image: https://exploitedpizza.info/images/nescafe.jpg
+  image: ../images/oa/nescafe.jpg
 - name: OkayD
   url: https://okayd.neocities.org/
   desc: Lua enjoyer? Nah! Just a roblox dev
-  image: https://okayd.neocities.org/hungydevil.png
+  image: ../images/oa/hungydevil.webp
 - name: oadeep
   url: https://oadeep.github.io/oa/
   desc: He is addicted
