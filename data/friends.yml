@@ -9,7 +9,7 @@
 - name: oadeep
   url: https://oadeep.github.io/oa/
   desc: He is addicted
-  image: https://oadeep.github.io/oa/oadeapdog.png
+  image: ../images/oa/oadeapdog.webp
 - name: jotakak
   url: https://jotakak.bearblog.dev/
   desc: He need help
