@@ -7,16 +7,16 @@
 menu:
   - name: home
     url: ""
-    icon: "f015" # default use taichi icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
+    icon: "/images/house-solid.svg" # default use taichi icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
   - name: archives
     url: "archives"
-    icon: "f187"
+    icon: "/images/box-solid.svg"
   - name: about
     url: "about"
-    icon: "f05a"
+    icon: "/images/circle-info-solid.svg"
   - name: friend
     url: "friend"
-    icon: "f0c0"
+    icon: "/images/users-solid.svg"
 
 mainSections: ["post"]
 # 年，月，日及时间的格式化样式
