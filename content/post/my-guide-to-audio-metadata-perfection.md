@@ -34,7 +34,7 @@ This image shows an example from [Elisa](https://apps.kde.org/elisa/). With audi
 
 # How Can You Get Music Metadata?
 
-It is quite simple. If you download music from my app, you probably do not need to do anything other than enjoy the music. However, it isn't all sunshine and rainbows. My app isn't perfect; in fact, I would say it is quite buggy. Therefore, I will show you some other ways to obtain music metadata.
+It is quite simple. If you download music from [my app](https://github.com/musdx/azul-box), you probably do not need to do anything other than enjoy the music. However, it isn't all sunshine and rainbows. My app isn't perfect; in fact, I would say it is quite buggy. Therefore, I will show you some other ways to obtain music metadata.
 
 The first source for metadata that comes to mind when people ask me is always the [MusicBrainz database](http://musicbrainz.org/).
 

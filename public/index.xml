@@ -12,12 +12,36 @@
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
-    <lastBuildDate>Sat, 12 Jul 2025 17:21:36 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 18 Jul 2025 15:17:56 -0400</lastBuildDate>
     
     
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
+    
+    
+
+    <item>
+      <title>AdGuard Home vs Pi-hole: Why did I choose AdGuard?</title>
+      <link>http://localhost:1313/post/adguard-home-vs-pi-hole/</link>
+      <pubDate>Fri, 18 Jul 2025 15:17:56 -0400</pubDate>
+      <author>tahoso@likely.blue (Tahoso)</author>
+      <guid>http://localhost:1313/post/adguard-home-vs-pi-hole/</guid>
+      <description>
+        <![CDATA[<h1>AdGuard Home vs Pi-hole: Why did I choose AdGuard?</h1><p>Author: Tahoso(tahoso@likely.blue)</p>
+        
+          <h1 id="my-story">
+<a class="header-anchor" href="#my-story"></a>
+My Story
+</h1><p>Back when I started my home lab journey, I began with Pi-hole. Many mainstream YouTubers recommended it, like LTT (Linus Tech Tips) and SOG (SomeOrdinaryGamers). It was amazing as my second self-hosted project, after I set up Nextcloud. However, it broke after I updated the Ubuntu system it was running on.</p>
+<p>After that first time, I started to learn more about Docker and web-native stuff.That is why I switched to using Pi-hole in Docker. I felt confident that it wouldn&rsquo;t randomly break because of an update again. Unfortunately, I was wrong. It broke again a few months after the second Pi-hole setup.</p>
+        
+        <hr><p>Published on 2025-07-18 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-07-18</p>]]>
+      </description>
+      
+        <category></category>
+      
+    </item>
     
     
 
