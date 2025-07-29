@@ -16,6 +16,7 @@ tags:
   - home lab
   - dns
   - adblock
+  - selfhost
 ---
 
 # My Story
