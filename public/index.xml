@@ -12,7 +12,7 @@
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
-    <lastBuildDate>Fri, 18 Jul 2025 15:17:56 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 28 Jul 2025 00:00:00 +0000</lastBuildDate>
     
     
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -24,7 +24,7 @@
     <item>
       <title>AdGuard Home vs Pi-hole: Why did I choose AdGuard?</title>
       <link>http://localhost:1313/post/adguard-home-vs-pi-hole/</link>
-      <pubDate>Fri, 18 Jul 2025 15:17:56 -0400</pubDate>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 &#43;0000</pubDate>
       <author>tahoso@likely.blue (Tahoso)</author>
       <guid>http://localhost:1313/post/adguard-home-vs-pi-hole/</guid>
       <description>
@@ -36,10 +36,37 @@ My Story
 </h1><p>Back when I started my home lab journey, I began with Pi-hole. Many mainstream YouTubers recommended it, like LTT (Linus Tech Tips) and SOG (SomeOrdinaryGamers). It was amazing as my second self-hosted project, after I set up Nextcloud. However, it broke after I updated the Ubuntu system it was running on.</p>
 <p>After that first time, I started to learn more about Docker and web-native stuff.That is why I switched to using Pi-hole in Docker. I felt confident that it wouldn&rsquo;t randomly break because of an update again. Unfortunately, I was wrong. It broke again a few months after the second Pi-hole setup.</p>
         
-        <hr><p>Published on 2025-07-18 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-07-18</p>]]>
+        <hr><p>Published on 2025-07-28 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-07-28</p>]]>
       </description>
       
-        <category></category>
+        <category>Opinion</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>My Guide to Achieving Audio Metadata Perfection on Linux</title>
+      <link>http://localhost:1313/post/my-guide-to-audio-metadata-perfection/</link>
+      <pubDate>Fri, 11 Jul 2025 16:56:15 -0400</pubDate>
+      <author>tahoso@likely.blue (Tahoso)</author>
+      <guid>http://localhost:1313/post/my-guide-to-audio-metadata-perfection/</guid>
+      <description>
+        <![CDATA[<h1>My Guide to Achieving Audio Metadata Perfection on Linux</h1><p>Author: Tahoso(tahoso@likely.blue)</p>
+        
+          <h1 id="what-is-audio-metadata">
+<a class="header-anchor" href="#what-is-audio-metadata"></a>
+What Is Audio Metadata?
+</h1><p>If you are familiar with metadata, you can skip this part, as it is essentially the same for audio files. Metadata is designed to add additional information to a file. For audio, this information can include the title, artist, album, track number, genre, cover art, and more. Having this metadata is useful because it aids in organizing your files effectively.</p>
+<h1 id="why-do-you-need-it">
+<a class="header-anchor" href="#why-do-you-need-it"></a>
+Why Do You Need It?
+</h1><p>As mentioned previously, having metadata greatly assists in organizing all your files. How does it work? Most modern local music players can read the data in your audio files and sort them by album, complete with album covers.</p>
+        
+        <hr><p>Published on 2025-07-11 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-07-20</p>]]>
+      </description>
+      
+        <category>Guide</category>
       
     </item>
     
@@ -110,33 +137,6 @@ Archlinux snapper setup
       </description>
       
         <category>Opinion</category>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>My Guide to Achieving Audio Metadata Perfection on Linux</title>
-      <link>http://localhost:1313/post/my-guide-to-audio-metadata-perfection/</link>
-      <pubDate>Fri, 11 Jul 2025 16:56:15 -0400</pubDate>
-      <author>tahoso@likely.blue (Tahoso)</author>
-      <guid>http://localhost:1313/post/my-guide-to-audio-metadata-perfection/</guid>
-      <description>
-        <![CDATA[<h1>My Guide to Achieving Audio Metadata Perfection on Linux</h1><p>Author: Tahoso(tahoso@likely.blue)</p>
-        
-          <h1 id="what-is-audio-metadata">
-<a class="header-anchor" href="#what-is-audio-metadata"></a>
-What Is Audio Metadata?
-</h1><p>If you are familiar with metadata, you can skip this part, as it is essentially the same for audio files. Metadata is designed to add additional information to a file. For audio, this information can include the title, artist, album, track number, genre, cover art, and more. Having this metadata is useful because it aids in organizing your files effectively.</p>
-<h1 id="why-do-you-need-it">
-<a class="header-anchor" href="#why-do-you-need-it"></a>
-Why Do You Need It?
-</h1><p>As mentioned previously, having metadata greatly assists in organizing all your files. How does it work? Most modern local music players can read the data in your audio files and sort them by album, complete with album covers.</p>
-        
-        <hr><p>Published on 2025-07-11 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-07-12</p>]]>
-      </description>
-      
-        <category>Guide</category>
       
     </item>
     
