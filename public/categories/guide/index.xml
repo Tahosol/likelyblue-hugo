@@ -12,12 +12,38 @@
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
-    <lastBuildDate>Sat, 09 Aug 2025 17:59:22 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 18 Aug 2025 13:41:32 -0400</lastBuildDate>
     
     
     <atom:link href="http://localhost:1313/categories/guide/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
+    
+    
+
+    <item>
+      <title>How To Disbale JIT In Your Browser</title>
+      <link>http://localhost:1313/post/disable-jit-in-your-browser-now/</link>
+      <pubDate>Mon, 18 Aug 2025 13:41:32 -0400</pubDate>
+      <author>tahoso@likely.blue (Tahoso)</author>
+      <guid>http://localhost:1313/post/disable-jit-in-your-browser-now/</guid>
+      <description>
+        <![CDATA[<h1>How To Disbale JIT In Your Browser</h1><p>Author: Tahoso(tahoso@likely.blue)</p>
+        
+          <h2 id="firefox">
+<a class="header-anchor" href="#firefox"></a>
+Firefox
+</h2><p>On desktop, it is really easy for firefox. You just need to go to about:config. search for <code>javascript.options.ion</code> and <code>javascript.options.baselinejit</code>. then disable both of them.</p>
+<p>It will look like this:
+<img src="../../images/disable-JIT-in-your-browser-now/firefox-1.webp" alt="">
+<img src="../../images/disable-JIT-in-your-browser-now/firefox-2.webp" alt=""></p>
+        
+        <hr><p>Published on 2025-08-18 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-08-18</p>]]>
+      </description>
+      
+        <category>Guide</category>
+      
+    </item>
     
     
 
@@ -30,16 +56,13 @@
       <description>
         <![CDATA[<h1>How to Harden Firefox on Android? And Why?</h1><p>Author: Tahoso(tahoso@likely.blue)</p>
         
-          <h1 id="why">
+          <h2 id="why">
 <a class="header-anchor" href="#why"></a>
 Why?
-</h1><h1 id="why-1">
-<a class="header-anchor" href="#why-1"></a>
-Why?
-</h1><p>Why would anyone harden Firefox on Android? The answer can be summarized in a few keywords: Privacy, Security, and Freedom.</p>
+</h2><p>Why would anyone harden Firefox on Android? The answer can be summarized in a few keywords: Privacy, Security, and Freedom.</p>
 <p>First, let&rsquo;s talk about privacy. Mobile browsers, or specifically Android browsers, are really bad for privacy. They are almost all closed-source and have questionable data collection practices. There are a few exceptions like <a href="https://github.com/uazo/cromite">Cromite</a>, <a href="https://f-droid.org/packages/org.mozilla.fennec_fdroid/">Fennec F-Droid</a>, <a href="https://gitlab.com/ironfox-oss/IronFox">Ironfox</a>, <a href="https://github.com/fork-maintainers/iceraven-browser">Iceraven</a>, <a href="https://brave.com/">Brave</a>, etc. They are valid options, but there are still some issues with them in my opinion.</p>
         
-        <hr><p>Published on 2025-08-09 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-08-09</p>]]>
+        <hr><p>Published on 2025-08-09 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-08-16</p>]]>
       </description>
       
         <category>Guide</category>
