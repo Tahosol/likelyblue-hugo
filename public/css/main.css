@@ -270,6 +270,11 @@ body [data-aos="zoom-in"] {
   content: "\e605";
 }
 
+.icon-calendar-plus:before {
+  font-family: "iconfont";
+  content: "\e648";
+}
+
 .icon-pencil:before {
   font-family: "iconfont";
   content: "\e61b";
@@ -1222,19 +1227,15 @@ a, .main-nav-icon, .popup-btn-close, button {
 .post-meta span {
   font-size: 14px;
   color: var(--grey-7);
-  margin: 0 8px;
+  margin: 0 12px;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
 
-.post-meta span:before {
-  margin: 0 10px;
-}
-
 @media screen and (max-width: 767px) {
-  .post-meta span:before {
-    margin: 0;
+  .post-meta span {
+    margin: 0 8px;
   }
 }
 
@@ -2668,6 +2669,7 @@ mjx-container::-webkit-scrollbar {
 
 #mobile-nav .sidebar-wrap {
   background: var(--color-mobile-nav-background);
+  max-height: calc(100vh - 100px);
 }
 
 .friend-wrap {
@@ -2903,8 +2905,22 @@ mjx-container::-webkit-scrollbar {
   box-shadow: 0 0 0 0;
 }
 
+.sidebar-wrapper-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-wrapper-container.sticky {
+  max-height: calc(100vh - 40px);
+  position: sticky;
+  top: 5px;
+}
+
 .sidebar-wrapper {
   transition: 0.3s;
+  flex: 1;
+  min-height: 0;
+  display: flex;
 }
 
 .sidebar-wrapper .aos-animate {
@@ -2919,22 +2935,18 @@ mjx-container::-webkit-scrollbar {
   transform: scale(1.015);
 }
 
-.sidebar-wrapper.wrap-sticky {
-  position: sticky;
-  top: 5px;
-}
-
 .sidebar-wrap {
   width: 100%;
   border-radius: 10px;
   background: var(--color-wrap);
   display: flex;
-  flex-shrink: 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   transition: 0.3s;
   interpolate-size: allow-keywords;
+  flex: 1;
+  min-height: 0;
 }
 
 .sidebar-wrap .hidden {
@@ -3196,15 +3208,10 @@ mjx-container::-webkit-scrollbar {
   color: #fff;
 }
 
-.sidebar-toc {
-  width: 100%;
-  padding: 10px 20px;
-  box-sizing: border-box;
-}
-
 .sidebar-toc-wrapper {
   color: var(--color-link);
-  max-height: calc(100vh - 150px);
+  flex: 1;
+  min-height: 0;
   overflow: auto;
 }
 
@@ -3341,7 +3348,8 @@ mjx-container::-webkit-scrollbar {
   width: 100%;
   align-items: center;
   overflow-y: auto;
-  max-height: calc(100vh - 120px);
+  flex: 1;
+  min-height: 0;
 }
 
 .sidebar-common-sidebar::-webkit-scrollbar {
@@ -3351,6 +3359,135 @@ mjx-container::-webkit-scrollbar {
 
 .sidebar-toc-sidebar {
   width: 100%;
+  flex: 1;
+  min-height: 0;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+:root {
+  --color-info-bg: hsl(210, 90%, 96%);
+  --color-info-text: hsl(210, 100%, 40%);
+  --color-info-shadow: hsl(210, 100%, 98%);
+  --color-warning-bg: hsl(40, 100%, 94%);
+  --color-warning-text: hsl(34, 94%, 35%);
+  --color-warning-shadow: hsl(40, 100%, 98%);
+  --color-danger-bg: hsl(0, 100%, 97%);
+  --color-danger-text: hsl(356, 72%, 45%);
+  --color-danger-shadow: hsl(0, 100%, 98%);
+  --color-tip-bg: hsl(138, 76%, 96%);
+  --color-tip-text: hsl(152, 95%, 28%);
+  --color-tip-shadow: hsl(138, 100%, 98%);
+  --color-important-bg: hsl(270, 80%, 96%);
+  --color-important-text: hsl(270, 80%, 45%);
+  --color-important-shadow: hsl(270, 80%, 98%);
+}
+
+[data-theme="dark"]:root {
+  --color-info-bg: hsl(210, 30%, 25%);
+  --color-info-text: hsl(210, 80%, 70%);
+  --color-info-shadow: hsl(210, 30%, 16%);
+  --color-warning-bg: hsl(40, 30%, 25%);
+  --color-warning-text: hsl(40, 80%, 70%);
+  --color-warning-shadow: hsl(40, 30%, 16%);
+  --color-danger-bg: hsl(0, 30%, 25%);
+  --color-danger-text: hsl(0, 80%, 70%);
+  --color-danger-shadow: hsl(0, 30%, 16%);
+  --color-tip-bg: hsl(138, 30%, 25%);
+  --color-tip-text: hsl(138, 80%, 70%);
+  --color-tip-shadow: hsl(138, 30%, 16%);
+  --color-important-bg: hsl(270, 30%, 25%);
+  --color-important-text: hsl(270, 80%, 70%);
+  --color-important-shadow: hsl(270, 30%, 16%);
+}
+
+.alert-blockquote {
+  margin: 1.8em 0;
+  border-radius: 10px;
+  transition: 0.3s;
+  padding: 1px 10px;
+}
+
+.alert-blockquote.info, .alert-blockquote.note {
+  background: var(--color-info-bg);
+  color: var(--color-info-text);
+  border-left: 6px var(--color-info-text) solid;
+  box-shadow: 0 0 5px 2px var(--color-info-shadow);
+}
+
+.alert-blockquote.info .alert-heading:before, .alert-blockquote.note .alert-heading:before {
+  font-weight: normal;
+  font-family: "iconfont";
+  content: "\e647";
+  margin-right: 0.5em;
+}
+
+.alert-blockquote.warning {
+  background: var(--color-warning-bg);
+  color: var(--color-warning-text);
+  box-shadow: 0 0 5px 2px var(--color-warning-shadow);
+  border-left: 6px var(--color-warning-text) solid;
+}
+
+.alert-blockquote.warning .alert-heading:before {
+  font-weight: normal;
+  font-family: "iconfont";
+  content: "\e646";
+  margin-right: 0.5em;
+}
+
+.alert-blockquote.danger, .alert-blockquote.caution {
+  background: var(--color-danger-bg);
+  color: var(--color-danger-text);
+  box-shadow: 0 0 5px 2px var(--color-danger-shadow);
+  border-left: 6px var(--color-danger-text) solid;
+}
+
+.alert-blockquote.danger .alert-heading:before, .alert-blockquote.caution .alert-heading:before {
+  font-weight: normal;
+  font-family: "iconfont";
+  content: "\e645";
+  margin-right: 0.5em;
+}
+
+.alert-blockquote.tip {
+  background: var(--color-tip-bg);
+  color: var(--color-tip-text);
+  box-shadow: 0 0 5px 2px var(--color-tip-shadow);
+  border-left: 6px var(--color-tip-text) solid;
+}
+
+.alert-blockquote.tip .alert-heading:before {
+  font-weight: normal;
+  font-family: "iconfont";
+  content: "\e643";
+  margin-right: 0.5em;
+}
+
+.alert-blockquote.important {
+  background: var(--color-important-bg);
+  color: var(--color-important-text);
+  box-shadow: 0 0 5px 2px var(--color-important-shadow);
+  border-left: 6px var(--color-important-text) solid;
+}
+
+.alert-blockquote.important .alert-heading:before {
+  font-weight: normal;
+  font-family: font-icon;
+  content: "\e649";
+  margin-right: 0.5em;
+}
+
+.alert-blockquote p {
+  margin: 0.8em 0;
+}
+
+.alert-heading {
+  margin: 0.8em 0 !important;
+  font-size: 1.1em;
+  font-weight: bold;
 }
 
 .sidebar-top {
@@ -3431,7 +3568,7 @@ mjx-container::-webkit-scrollbar {
 }
 
 .widget-wrap {
-  margin: 40px 0;
+  margin: 40px 0 0 0;
   background: var(--color-wrap);
   border-radius: 10px;
   transition: 0.3s;

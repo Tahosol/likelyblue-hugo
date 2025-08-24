@@ -12,7 +12,7 @@
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
-    <lastBuildDate>Mon, 18 Aug 2025 13:41:32 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 20 Aug 2025 20:12:26 -0400</lastBuildDate>
     
     
     <atom:link href="http://localhost:1313/categories/guide/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -22,23 +22,27 @@
     
 
     <item>
-      <title>How To Disbale JIT In Your Browser</title>
+      <title>How to Disable JIT in Your Browser</title>
       <link>http://localhost:1313/post/disable-jit-in-your-browser-now/</link>
-      <pubDate>Mon, 18 Aug 2025 13:41:32 -0400</pubDate>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 &#43;0000</pubDate>
       <author>tahoso@likely.blue (Tahoso)</author>
       <guid>http://localhost:1313/post/disable-jit-in-your-browser-now/</guid>
       <description>
-        <![CDATA[<h1>How To Disbale JIT In Your Browser</h1><p>Author: Tahoso(tahoso@likely.blue)</p>
+        <![CDATA[<h1>How to Disable JIT in Your Browser</h1><p>Author: Tahoso(tahoso@likely.blue)</p>
         
           <h2 id="firefox">
 <a class="header-anchor" href="#firefox"></a>
 Firefox
-</h2><p>On desktop, it is really easy for firefox. You just need to go to about:config. search for <code>javascript.options.ion</code> and <code>javascript.options.baselinejit</code>. then disable both of them.</p>
-<p>It will look like this:
-<img src="../../images/disable-JIT-in-your-browser-now/firefox-1.webp" alt="">
+</h2><p>On desktop, it&rsquo;s really easy for Firefox. You just need to go to <code>about:config</code>, search for <code>javascript.options.ion</code> and <code>javascript.options.baselinejit</code>, and then disable both of them.</p>
+<p>It will look like this:</p>
+<p><img src="../../images/disable-JIT-in-your-browser-now/firefox-1.webp" alt="">
 <img src="../../images/disable-JIT-in-your-browser-now/firefox-2.webp" alt=""></p>
+<h2 id="chromium-based">
+<a class="header-anchor" href="#chromium-based"></a>
+Chromium-based
+</h2><p>As for the Chromium family, it can be quite complex as it has a lot of different ways to get it to work for different browsers, etc. However, generally, you can run the Chromium-based browser with the <code>--js-flags=--jitless</code> flag to disable JIT.</p>
         
-        <hr><p>Published on 2025-08-18 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-08-18</p>]]>
+        <hr><p>Published on 2025-08-20 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-08-20</p>]]>
       </description>
       
         <category>Guide</category>

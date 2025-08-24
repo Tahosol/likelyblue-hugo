@@ -203,7 +203,7 @@
       target.classList.add("active", "current");
       sections[index]?.classList.add("active");
       let parent = target.parentNode;
-      while (!parent.matches(".sidebar-toc")) {
+      while (!parent.matches(".sidebar-toc-sidebar")) {
         if (parent.matches("li")) {
           parent.classList.add("active");
           const t = document.getElementById(
