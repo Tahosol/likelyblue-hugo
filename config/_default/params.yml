@@ -588,18 +588,22 @@ player:
       audio:
         - name: "Say It"
           artist: "Will Stetson"
-          url: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/say-it.opus"
-          cover: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/say-it.webp"
-          lrc: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/say-it.lrc"
-          # theme: "#ebd0c2"
-      fixed: true
+          url: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/say-it/say-it.opus"
+          cover: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/say-it/say-it.webp"
+          lrc: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/say-it/say-it.lrc"
+        - name: "Hitchcock"
+          artist: "Will Stetson"
+          url: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/hitchcock/hitchcock.opus"
+          cover: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/hitchcock/hitchcock.webp"
+          lrc: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/hitchcock/hitchcock.lrc"
+      fixed: false
       autoplay:
       loop:
       order:
       preload:
-      volume:
+      volume: 0.5
       mutex:
-      listFolded:
+      listFolded: true
       lrcType: 3
   meting:
     # https://github.com/metowolf/MetingJS
