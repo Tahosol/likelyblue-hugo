@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 description: "{{ .Name }}"
 keywords: "{{replace .Name "-" ","}}"
-cover: false
+cover: ../../images/{{ .Name }}/
 
 date: {{ .Date }}
 lastmod: {{ .Date }}
@@ -18,3 +18,4 @@ tags:
 ---
 {{ replace .Name "-" " " | title }}
 <!--more-->
+![](../../images/{{ .Name }}/)
