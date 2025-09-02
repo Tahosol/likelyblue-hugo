@@ -589,8 +589,8 @@ player:
         - name: "Say It"
           artist: "Will Stetson"
           url: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/say-it.opus"
-          cover: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/musics/say-it.webp"
-          lrc: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/musics/say-it.lrc"
+          cover: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/say-it.webp"
+          lrc: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/say-it.lrc"
           # theme: "#ebd0c2"
       fixed: true
       autoplay:
