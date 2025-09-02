@@ -486,7 +486,7 @@ top:
 
 # whether to display the notification when the article is outdated
 outdate:
-  enable: true
+  enable: false
   daysAgo: 180 # The number of days after which the article is considered outdated
   message:
     en: This article was last updated on {time}. Please note that the content may no longer be applicable.
@@ -543,7 +543,7 @@ home_categories:
 
 # Experimental, may have a lot of bugs, open with caution!
 pjax:
-  enable: false
+  enable: true
 
 # Experimental
 # https://github.com/GoogleChromeLabs/quicklink
@@ -579,12 +579,19 @@ pace:
 # Experimental
 # Please turn on pjax to use this feature
 player:
+  position: before_sidebar # before_sidebar | after_sidebar | after_widget
   # if you enable meting, you must enable aplayer first
   aplayer:
     # https://github.com/DIYgod/APlayer
-    enable: false
+    enable: true
     options:
-      audio: []
+      audio:
+        - name: "Say It"
+          artist: "Will Stetson"
+          url: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/say-it.opus"
+          cover: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/musics/say-it.webp"
+          lrc: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/musics/say-it.lrc"
+          # theme: "#ebd0c2"
       fixed: true
       autoplay:
       loop:
@@ -593,7 +600,7 @@ player:
       volume:
       mutex:
       listFolded:
-      lrcType:
+      lrcType: 3
   meting:
     # https://github.com/metowolf/MetingJS
     # if you want to use meting, please enable aplayer first
