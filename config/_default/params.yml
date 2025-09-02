@@ -596,6 +596,11 @@ player:
           url: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/hitchcock/hitchcock.opus"
           cover: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/hitchcock/hitchcock.webp"
           lrc: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/hitchcock/hitchcock.lrc"
+        - name: "Bathtub and Neon Tetra"
+          artist: "Dongdang"
+          url: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/bathtub-and-neon-tetra/bathtub-and-neon-tetra.opus"
+          cover: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/bathtub-and-neon-tetra/bathtub-and-neon-tetra.webp"
+          lrc: "https://raw.githubusercontent.com/Tahosol/likelyblue-hugo/refs/heads/main/static/musics/bathtub-and-neon-tetra/bathtub-and-neon-tetra.lrc"
       fixed: false
       autoplay:
       loop:
