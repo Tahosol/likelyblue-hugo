@@ -136,7 +136,6 @@ social:
 widgets:
   - category
   - tag
-  - recent_posts
 
 # Widget behavior
 category_limits: 10
