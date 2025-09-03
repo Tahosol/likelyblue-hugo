@@ -17,7 +17,7 @@ tags:
   - firefox
   - social media
 ---
-The truth is almost all modern social media kinda sucks. They shove all the short content, ads, and ~~spying~~tracking into your throat. You are not in control anymore. It happened to me too. It touched my limit when I found myself mindlessly scrolling through Instagram Reels for half an hour after just messaging a friend. That is why I decided to remove the app from my phone and use Firefox web app to make this:
+The writing is on the wall: almost all modern social media kinda sucks. They shove all the short content, ads, and ~~spying~~tracking into your throat. You are not in control anymore. It happened to me too. It touched my limit when I found myself mindlessly scrolling through Instagram Reels for half an hour after just messaging a friend. That is why I decided to remove the app from my phone and use Firefox web app to make this:
 
 
 {{< rawhtml >}}
@@ -28,16 +28,16 @@ The truth is almost all modern social media kinda sucks. They shove all the shor
 
 Of course, I need to censor some personal stuff, but as you can see, the home tab is empty, there is no mindlessly scrolling available, and the Reels button is not there anymore. If this seems interesting to you, then feel free to continue reading this blog.
 
-## How?
+# How?
 
 Before actually taking steps and doing the "debloat" steps, please read the pros and cons first.
 
-### Pros
+## Pros
 
 * Better privacy (stops trackers, ads, etc.)
 * Removes distractions
 
-### Cons
+## Cons
 
 * Mostly no notifications (there are some social media platforms that will have push notifications, but some don't)
 * The web app experience is not as polished as the Android app
