@@ -350,7 +350,7 @@ gitalk:
 # https://giscus.app/zh-CN
 giscus:
   enable: true
-  repo: musdx/likelyblue
+  repo: Tahosol/likelyblue
   repoId: R_kgDOOOtYNA
   category: General
   categoryId: DIC_kwDOOOtYNM4Co6KG
