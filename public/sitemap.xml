@@ -2,28 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/post/antidote-adobe-ils-cr%C3%A9ent-un-correcteur-orthographe/</loc>
-    <lastmod>2025-09-08T19:19:41-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-09-08T19:19:41-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/fran%C3%A7ais/</loc>
-    <lastmod>2025-09-08T19:19:41-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-09-08T19:19:41-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/opinion/</loc>
-    <lastmod>2025-09-08T19:19:41-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-09-08T19:19:41-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/a-cleaner-social-media-on-android/</loc>
     <lastmod>2025-09-02T20:06:42-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/android/</loc>
+    <lastmod>2025-09-02T20:06:42-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-09-02T20:06:42-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/firefox/</loc>
@@ -32,7 +17,13 @@
     <loc>http://localhost:1313/categories/guide/</loc>
     <lastmod>2025-09-02T20:06:42-04:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-09-02T20:06:42-04:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/social-media/</loc>
+    <lastmod>2025-09-02T20:06:42-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-09-02T20:06:42-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/browser/</loc>
@@ -54,6 +45,9 @@
     <lastmod>2025-07-28T22:29:11-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/home-lab/</loc>
+    <lastmod>2025-07-28T22:29:11-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/opinion/</loc>
     <lastmod>2025-07-28T22:29:11-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/selfhost/</loc>

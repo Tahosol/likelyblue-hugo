@@ -7,16 +7,16 @@
 menu:
   - name: home
     url: ""
-    icon: "/images/house-solid.svg" # default use taichi icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
+    icon: "f015"
   - name: archives
     url: "archives"
-    icon: "/images/box-solid.svg"
+    icon: "f187"
   - name: about
     url: "about"
-    icon: "/images/circle-info-solid.svg"
+    icon: "f05a"
   - name: friend
     url: "friend"
-    icon: "/images/users-solid.svg"
+    icon: "f500"
 
 mainSections: ["post"]
 # 年，月，日及时间的格式化样式
@@ -179,7 +179,7 @@ reimu_cursor:
     pointer: ../images/cursor/reimu-cursor-pointer.png
     text: ../images/cursor/reimu-cursor-text.png
 
-icon_font: 4552607_0khxww3tj3q9
+icon_font: false
 
 # Font loading strategy
 # Custom Font -> Google Fonts -> Local FallBack Font
@@ -385,7 +385,7 @@ preloader:
     zh-TW: 少女祈禱中...
     en: Loading...
     ja: 少女祈祷中...
-  icon: # default use inline svg for fast speed, you can use a image url, like '/images/taichi.png'
+  icon: "../images/blueapple.webp" # default use inline svg for fast speed, you can use a image url, like '/images/taichi.png'
   rotate: true # whether to rotate the icon
 
 # see https://github.com/D-Sketon/aos.js
@@ -507,7 +507,7 @@ sponsor:
     en: Buy me a coffee
     ja: コーヒーを買ってください
   icon:
-    url: "../images/taichi.png" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
+    url: "../images/apple-organic-svgrepo-com.svg" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
     rotate: true
     mask: true # whether to use the images as a mask
   qr:
