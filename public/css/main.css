@@ -333,12 +333,12 @@ body [data-aos="zoom-in"] {
   font-weight: 900;
 }
 
-.sidebar-btn-wrapper .sidebar-toc-btn:before {
+.sidebar-toc-btn:before {
   font-family: var(--font-icon);
   content: "\f0e8";
 }
 
-.sidebar-btn-wrapper .sidebar-common-btn:before {
+.sidebar-common-btn:before {
   font-family: var(--font-icon);
   content: "\e3af";
 }
@@ -425,7 +425,6 @@ a img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Mulish", "Noto Serif SC", "Mulish", "Noto Serif SC", "-apple-system", "PingFang SC", "Microsoft YaHei", "sans-serif";
   font-weight: 700;
 }
 
@@ -624,7 +623,6 @@ a, .main-nav-icon, .popup-btn-close, button {
 }
 
 #header-title {
-  font-family: "Mulish", "Noto Serif SC", "Mulish", "Noto Serif SC", "-apple-system", "PingFang SC", "Microsoft YaHei", "sans-serif";
   font-weight: 700;
   text-align: center;
   position: absolute;
@@ -744,12 +742,6 @@ a, .main-nav-icon, .popup-btn-close, button {
 @media screen and (max-width: 959px) {
   .main-nav-link-wrap {
     padding: 0 10px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .main-nav-link-wrap {
-    padding: 0 4px;
   }
 }
 
@@ -1092,11 +1084,11 @@ a, .main-nav-icon, .popup-btn-close, button {
   opacity: 1;
 }
 
-.archive-article-date-wrap {
+.archive-article-date {
   flex-shrink: 0;
 }
 
-.archive-article-date-wrap a {
+.archive-article-date a {
   text-decoration: none;
 }
 
@@ -1170,6 +1162,28 @@ a, .main-nav-icon, .popup-btn-close, button {
   height: 100%;
 }
 
+.post-wrap {
+  width: 100%;
+  height: 230px;
+  margin-bottom: 40px;
+  position: relative;
+  border-radius: 10px;
+  background: var(--color-wrap);
+  display: flex;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 767px) {
+  .post-wrap {
+    flex-direction: column !important;
+    height: 400px;
+  }
+}
+
+.post-wrap.right {
+  flex-direction: row-reverse;
+}
+
 [data-theme="dark"] .post-wrap-left,
 [data-theme="dark"] .post-wrap-right {
   box-shadow: var(--shadow-card);
@@ -1200,30 +1214,6 @@ a, .main-nav-icon, .popup-btn-close, button {
   }
   .post-wrapper:hover img {
     transform: scale(1.05);
-  }
-}
-
-.post-wrap-right {
-  flex-direction: row-reverse;
-}
-
-.post-wrap-left,
-.post-wrap-right {
-  width: 100%;
-  height: 230px;
-  margin-bottom: 40px;
-  position: relative;
-  border-radius: 10px;
-  background: var(--color-wrap);
-  display: flex;
-  transition: 0.3s;
-}
-
-@media screen and (max-width: 767px) {
-  .post-wrap-left,
-.post-wrap-right {
-    flex-direction: column;
-    height: 400px;
   }
 }
 
@@ -1271,7 +1261,7 @@ a, .main-nav-icon, .popup-btn-close, button {
   color: var(--color-link);
 }
 
-.post-cover-left {
+.post-cover {
   width: 40%;
   position: relative;
   overflow: hidden;
@@ -1281,8 +1271,32 @@ a, .main-nav-icon, .popup-btn-close, button {
   pointer-events: none;
 }
 
+@media screen and (max-width: 767px) {
+  .post-cover {
+    width: 100%;
+    height: 45%;
+  }
+}
+
+.post-cover img {
+  display: block;
+  opacity: 0;
+  transition: 0.2s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.post-cover img.lazyloaded {
+  opacity: 1;
+  animation: blur 0.8s forwards;
+}
+
 @media screen and (min-width: 768px) {
-  .post-cover-left {
+  .post-cover.left {
     border-radius: 10px 0 0 10px;
     -webkit-clip-path: polygon(0 0, 92% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(0 0, 92% 0%, 100% 100%, 0% 100%);
@@ -1290,47 +1304,13 @@ a, .main-nav-icon, .popup-btn-close, button {
 }
 
 @media screen and (max-width: 767px) {
-  .post-cover-left {
+  .post-cover.left {
     border-radius: 10px 10px 0 0;
   }
 }
 
-@media screen and (max-width: 767px) {
-  .post-cover-left {
-    width: 100%;
-    height: 45%;
-  }
-}
-
-.post-cover-left img {
-  display: block;
-  opacity: 0;
-  transition: 0.2s;
-  position: absolute;
-  left: 0;
-  top: 0;
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-
-.post-cover-left img.lazyloaded {
-  opacity: 1;
-  animation: blur 0.8s forwards;
-}
-
-.post-cover-right {
-  width: 40%;
-  position: relative;
-  overflow: hidden;
-  min-height: 95px;
-  background-color: var(--color-wrap);
-  flex-shrink: 0;
-  pointer-events: none;
-}
-
 @media screen and (min-width: 768px) {
-  .post-cover-right {
+  .post-cover.right {
     border-radius: 0 10px 10px 0;
     -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 8% 100%);
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 8% 100%);
@@ -1338,33 +1318,9 @@ a, .main-nav-icon, .popup-btn-close, button {
 }
 
 @media screen and (max-width: 767px) {
-  .post-cover-right {
+  .post-cover.right {
     border-radius: 10px 10px 0 0;
   }
-}
-
-@media screen and (max-width: 767px) {
-  .post-cover-right {
-    width: 100%;
-    height: 45%;
-  }
-}
-
-.post-cover-right img {
-  display: block;
-  opacity: 0;
-  transition: 0.2s;
-  position: absolute;
-  left: 0;
-  top: 0;
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-
-.post-cover-right img.lazyloaded {
-  opacity: 1;
-  animation: blur 0.8s forwards;
 }
 
 .post-title {
@@ -2098,7 +2054,7 @@ h6 a,
   opacity: 1;
 }
 
-.article-nav-link-right {
+.article-nav-link-wrap.right {
   align-items: flex-end;
   padding-right: 20px;
 }
@@ -2530,7 +2486,7 @@ mjx-container::-webkit-scrollbar {
   }
 }
 
-.sponsor-button-wrapper {
+.sponsor-button {
   margin: 8px 50px;
   display: flex;
   position: relative;
@@ -2541,15 +2497,15 @@ mjx-container::-webkit-scrollbar {
   cursor: var(--cursor-pointer) !important;
 }
 
-.sponsor-button-wrapper:hover {
+.sponsor-button:hover {
   border: 10px var(--color-h2-after) double;
 }
 
-.sponsor-button-wrapper:hover + .sponsor-tip {
+.sponsor-button:hover + .sponsor-tip {
   opacity: 0.8;
 }
 
-.sponsor-button-wrapper.active {
+.sponsor-button.active {
   border: 10px var(--color-h2-after) double;
 }
 
@@ -3030,47 +2986,29 @@ mjx-container::-webkit-scrollbar {
   opacity: 1;
 }
 
+.sidebar-state > div, .sidebar-state > a {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.sidebar-state > div div, .sidebar-state > a div {
+  margin: 5px 0;
+}
+
 .sidebar-state a {
   text-decoration: none;
   color: inherit;
 }
 
 .sidebar-state-article {
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-  align-items: center;
-  padding: 0 20px;
   border-right: 1px solid var(--red-1);
 }
 
-.sidebar-state-article div {
-  margin: 5px 0;
-}
-
-.sidebar-state-category {
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-  align-items: center;
-  padding: 0 20px;
-}
-
-.sidebar-state-category div {
-  margin: 5px 0;
-}
-
 .sidebar-state-tag {
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-  align-items: center;
-  padding: 0 20px;
   border-left: 1px solid var(--red-1);
-}
-
-.sidebar-state-tag div {
-  margin: 5px 0;
 }
 
 .sidebar-state-number {
@@ -3747,17 +3685,17 @@ mjx-container::-webkit-scrollbar {
   color: var(--color-link) !important;
 }
 
-.aplayer .aplayer-list ol li {
+.aplayer-list ol li {
   transition: all 0.3s;
   border-top: 1px solid var(--color-h2-border) !important;
   cursor: var(--cursor-pointer) !important;
 }
 
-.aplayer .aplayer-list ol li:hover {
+.aplayer-list ol li:hover {
   background: var(--color-hover-shadow) !important;
 }
 
-.aplayer .aplayer-list ol li.aplayer-list-light {
+.aplayer-list ol li.aplayer-list-light {
   background: var(--color-hover-shadow) !important;
 }
 
@@ -3769,25 +3707,19 @@ mjx-container::-webkit-scrollbar {
   background: none !important;
 }
 
-.aplayer .aplayer-lrc .aplayer-lrc-contents,
-.aplayer .aplayer-info .aplayer-music {
+.aplayer-lrc-contents,
+.aplayer-music {
   cursor: var(--cursor-default) !important;
 }
 
-.aplayer .aplayer-pic,
+.aplayer-pic,
 body .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap,
-.aplayer .aplayer-list-cur,
-.aplayer .aplayer-list-index,
-.aplayer .aplayer-list-author,
+.aplayer-list-cur,
+.aplayer-list-index,
+.aplayer-list-author,
 body .aplayer .aplayer-info .aplayer-controller .aplayer-volume-wrap,
-.aplayer
-.aplayer-info
-.aplayer-controller
-.aplayer-bar-wrap
-.aplayer-bar
-.aplayer-played
 .aplayer-thumb,
-.aplayer .aplayer-icon {
+.aplayer-icon {
   cursor: var(--cursor-pointer) !important;
 }
 

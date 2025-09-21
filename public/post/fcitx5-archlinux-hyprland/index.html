@@ -342,7 +342,7 @@ Bonus(aka Electron issues):
   </div><nav
     id="article-nav"
     data-aos="fade-up"
-  ><div class="article-nav-link-wrap article-nav-link-left"><img
+  ><div class="article-nav-link-wrap left"><img
             data-src="../../images/archlinux-snapper/cover.png"
             data-sizes="auto"
             alt="Archlinux Snapper"
@@ -350,7 +350,7 @@ Bonus(aka Electron issues):
           /><a href="/post/archlinux-snapper/"></a>
         <div class="article-nav-caption">Prev</div>
         <h3 class="article-nav-title">Archlinux Snapper</h3>
-      </div><div class="article-nav-link-wrap article-nav-link-right"><img
+      </div><div class="article-nav-link-wrap right"><img
             data-src="../../images/my-experience-with-antivirus-on-linux/cover.jpg"
             data-sizes="auto"
             alt="My Experience With Antivirus on Linux"
@@ -1040,10 +1040,10 @@ Bonus(aka Electron issues):
       if (isMobile) {
       const aplayer = _$('#aplayer');
         if (aplayer) {
-          const aside = aplayer.parentNode;
+          const aside = aplayer.parentNode?.parentNode;
           if (aside?.tagName === 'ASIDE') {
             aplayer.removeAttribute('data-aos');
-            aside.removeChild(aplayer);
+            aside.parentNode.removeChild(aplayer);
             document.body.appendChild(aplayer);
           }
         }

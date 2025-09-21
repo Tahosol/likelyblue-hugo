@@ -353,7 +353,7 @@ sudo btrfs subvol get-default /
   </div><nav
     id="article-nav"
     data-aos="fade-up"
-  ><div class="article-nav-link-wrap article-nav-link-right"><img
+  ><div class="article-nav-link-wrap right"><img
             data-src="../../images/fcitx5-archlinux-hyprland/cover.webp"
             data-sizes="auto"
             alt="Fcitx5 Archlinux Hyprland"
@@ -1039,10 +1039,10 @@ sudo btrfs subvol get-default /
       if (isMobile) {
       const aplayer = _$('#aplayer');
         if (aplayer) {
-          const aside = aplayer.parentNode;
+          const aside = aplayer.parentNode?.parentNode;
           if (aside?.tagName === 'ASIDE') {
             aplayer.removeAttribute('data-aos');
-            aside.removeChild(aplayer);
+            aside.parentNode.removeChild(aplayer);
             document.body.appendChild(aplayer);
           }
         }

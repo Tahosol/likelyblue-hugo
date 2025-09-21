@@ -256,8 +256,8 @@
     });
   }
   tocInit();
-  _$(".sponsor-button-wrapper")?.off("click").on("click", () => {
-    _$(".sponsor-button-wrapper")?.classList.toggle("active");
+  _$(".sponsor-button")?.off("click").on("click", () => {
+    _$(".sponsor-button")?.classList.toggle("active");
     _$(".sponsor-tip")?.classList.toggle("active");
     _$(".sponsor-qr")?.classList.toggle("active");
   });

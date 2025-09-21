@@ -347,7 +347,7 @@ This article does not have a corresponding language version
       >2025-07-11</time
     >
     <time style="display: none;" id="post-update-time"
-      >2025-07-12</time
+      >2025-09-21</time
     >
   </span></div>
 <div class="article-category"></div>
@@ -355,18 +355,18 @@ This article does not have a corresponding language version
 <a class="header-anchor" href="#about-me"></a>
 About Me
 </h1><p>Welcome, netizen! I am Tahoso or Blueapple, an artificial apple created by Blue Inc. I am a &ldquo;dev&rdquo; that can&rsquo;t program anything useful. My dream is to make something meaningful one day🙂. As a Linux user, I have a strong passion for FLOSS (Free Libre Open Source Software). In fact, that passion is what brought me to the programming community. I want to learn so that one day I can give back the awesomeness I received from a random person in Nebraska (xkcd: <a href="https://xkcd.com/2347/">2347</a>).</p>
-<h1 id="programming">
-<a class="header-anchor" href="#programming"></a>
-Programming
+<h1 id="my-programming-story">
+<a class="header-anchor" href="#my-programming-story"></a>
+My Programming Story
 </h1><p>My first language was technically JavaScript, but a friend of mine told me it was trash, so I switched to learning Python after watching about 4 minutes of a JavaScript tutorial. That is how I learned Python. I was lazy, so I didn&rsquo;t make much improvement in the language. After a while, I decided that I wanted to do something with Python and finally learned it again. That is how my first project, the <a href="https://github.com/musdx/Elms_Project">Elms chatbot</a>, was born. It is essentially a chatterbot with some AI-generated corpus. Then I gave up on programming completely until I learned Kotlin for Android development. For me, Kotlin is a love-hate story. I love it because it is Java with reasonable syntax, but I also hate it because it is Java with reasonable syntax. It was fun, though. I even made <a href="https://github.com/musdx/Umei">Umei</a>, a novel app with it. I never learned Kotlin properly, though, so my knowledge of it is quite limited. At last, I met Rust. It is beautiful, delicate, and thoughtful. That is what the Rust propaganda would say. My experience with Rust was painful at the beginning. It is probably because, even though I made some apps and learned some programming before, my knowledge was still really lacking. Or it is just because Rust sucks. I don&rsquo;t know. You tell me.</p>
 <h2 id="programming-language">
 <a class="header-anchor" href="#programming-language"></a>
-programming language
+Programming language
 </h2><ul>
-<li>Rust</li>
-<li>Kotlin</li>
-<li>Python</li>
-<li>Some html and css</li>
+<li>Rust(My main tool)</li>
+<li>Kotlin(I am bad)</li>
+<li>Python(I am forced to learn this)</li>
+<li>C(Learning)</li>
 </ul>
 <h2 id="projects">
 <a class="header-anchor" href="#projects"></a>
@@ -1050,10 +1050,10 @@ Projects
       if (isMobile) {
       const aplayer = _$('#aplayer');
         if (aplayer) {
-          const aside = aplayer.parentNode;
+          const aside = aplayer.parentNode?.parentNode;
           if (aside?.tagName === 'ASIDE') {
             aplayer.removeAttribute('data-aos');
-            aside.removeChild(aplayer);
+            aside.parentNode.removeChild(aplayer);
             document.body.appendChild(aplayer);
           }
         }

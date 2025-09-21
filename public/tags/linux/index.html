@@ -470,7 +470,7 @@ This article does not have a corresponding language version
       <span class="archive-year">2025</span>
     </div>
     <ul><li class="archive-article">
-          <div class="archive-article-date-wrap">
+          <div class="archive-article-date">
             <span>
               <time
                 class="dt-published"
@@ -482,7 +482,7 @@ This article does not have a corresponding language version
           </div><a class="archive-article-title" href="/post/my-guide-to-audio-metadata-perfection/"
               >My Guide to Achieving Audio Metadata Perfection on Linux</a
             ></li><li class="archive-article">
-          <div class="archive-article-date-wrap">
+          <div class="archive-article-date">
             <span>
               <time
                 class="dt-published"
@@ -494,7 +494,7 @@ This article does not have a corresponding language version
           </div><a class="archive-article-title" href="/post/my-experience-with-antivirus-on-linux/"
               >My Experience With Antivirus on Linux</a
             ></li><li class="archive-article">
-          <div class="archive-article-date-wrap">
+          <div class="archive-article-date">
             <span>
               <time
                 class="dt-published"
@@ -506,7 +506,7 @@ This article does not have a corresponding language version
           </div><a class="archive-article-title" href="/post/fcitx5-archlinux-hyprland/"
               >Fcitx5 Archlinux Hyprland</a
             ></li><li class="archive-article">
-          <div class="archive-article-date-wrap">
+          <div class="archive-article-date">
             <span>
               <time
                 class="dt-published"
@@ -1171,10 +1171,10 @@ This article does not have a corresponding language version
       if (isMobile) {
       const aplayer = _$('#aplayer');
         if (aplayer) {
-          const aside = aplayer.parentNode;
+          const aside = aplayer.parentNode?.parentNode;
           if (aside?.tagName === 'ASIDE') {
             aplayer.removeAttribute('data-aos');
-            aside.removeChild(aplayer);
+            aside.parentNode.removeChild(aplayer);
             document.body.appendChild(aplayer);
           }
         }

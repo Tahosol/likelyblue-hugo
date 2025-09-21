@@ -306,7 +306,7 @@ Here is a list:</p>
   </div><nav
     id="article-nav"
     data-aos="fade-up"
-  ><div class="article-nav-link-wrap article-nav-link-left"><img
+  ><div class="article-nav-link-wrap left"><img
             data-src="../../images/fcitx5-archlinux-hyprland/cover.webp"
             data-sizes="auto"
             alt="Fcitx5 Archlinux Hyprland"
@@ -314,7 +314,7 @@ Here is a list:</p>
           /><a href="/post/fcitx5-archlinux-hyprland/"></a>
         <div class="article-nav-caption">Prev</div>
         <h3 class="article-nav-title">Fcitx5 Archlinux Hyprland</h3>
-      </div><div class="article-nav-link-wrap article-nav-link-right"><img
+      </div><div class="article-nav-link-wrap right"><img
             data-src="../../images/my-guide-to-audio-metadata-perfection/cover.png"
             data-sizes="auto"
             alt="My Guide to Achieving Audio Metadata Perfection on Linux"
@@ -993,10 +993,10 @@ Here is a list:</p>
       if (isMobile) {
       const aplayer = _$('#aplayer');
         if (aplayer) {
-          const aside = aplayer.parentNode;
+          const aside = aplayer.parentNode?.parentNode;
           if (aside?.tagName === 'ASIDE') {
             aplayer.removeAttribute('data-aos');
-            aside.removeChild(aplayer);
+            aside.parentNode.removeChild(aplayer);
             document.body.appendChild(aplayer);
           }
         }
