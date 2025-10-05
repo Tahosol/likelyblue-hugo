@@ -3,7 +3,7 @@ title: "Archlinux Snapper"
 description: "This is a guide to set up Snapper on Arch Linux for Btrfs if you use the Archinstall suggested partition layout."
 keywords: "archlinux,snapper"
 cover: ../../images/archlinux-snapper/cover.png
-
+outdated: true
 date: 2025-03-26
 lastmod: 2025-03-26
 
