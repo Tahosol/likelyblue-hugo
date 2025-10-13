@@ -20,10 +20,16 @@ My first language was technically JavaScript, but a friend of mine told me it wa
 
 ## Projects
 
-- [Azul box](https://github.com/musdx/azul-box) a utility box for yt-dlp and ffmpeg with musicbrainz Metadata.
+- [Azul box](https://github.com/Tahosol/azul-box) a utility box for yt-dlp and ffmpeg with musicbrainz Metadata.
 
-![Azul box image](https://raw.githubusercontent.com/musdx/azul-box/refs/heads/master/assets/pic1.png)
+{{< rawhtml >}}
 
-- [Blist](https://github.com/musdx/blist) A mostly ABP style blocklist for adguard home and pihole compiled from the internet. It is mainly aiming at block ads, tracker and suspicious domain.
+<video width=80% controls>
+    <source src="https://github.com/user-attachments/assets/07a4689a-24ee-4fa1-ae87-0c99072d7fdd" type="video/webm">
+    Your browser does not support the video tag.
+</video>
 
-- [Umei](https://github.com/musdx/Umei) A vietnamese novel app
+{{< /rawhtml >}}
+- [Blist](https://github.com/Tahosol/blist) A mostly ABP style blocklist for adguard home and pihole compiled from the internet. It is mainly aiming at block ads, tracker and suspicious domain.
+
+- [Umei](https://github.com/Tahosol/Umei) A vietnamese novel app
