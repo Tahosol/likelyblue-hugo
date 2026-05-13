@@ -19,6 +19,7 @@
       var __aosScrollHandler;
       var __aosResizeHandler;
       var __observer;
+      var __aosBodyResizeObserver;
       (() => {
         let options = {
           offset: 120,
@@ -191,6 +192,13 @@
           );
           window.on("scroll", __aosScrollHandler);
           observe(refreshHard);
+          if (window.ResizeObserver && _$("#main")) {
+            __aosBodyResizeObserver?.disconnect?.();
+            __aosBodyResizeObserver = new ResizeObserver(
+              debounce(() => refresh(), options.debounceDelay)
+            );
+            __aosBodyResizeObserver.observe(_$("#main"));
+          }
           return $aosElements;
         };
         window.AOS = {

@@ -12,7 +12,7 @@
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
-    <lastBuildDate>Sat, 12 Jul 2025 17:21:36 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 05 Oct 2025 16:33:34 -0400</lastBuildDate>
     
     
     <atom:link href="http://localhost:1313/tags/snapper/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -37,7 +37,7 @@ Archlinux snapper setup
 <p><strong>This is just my way of doing this. It works for me, but I can&rsquo;t guarantee it will work for you.</strong></p>
 <p>This is a guide to set up Snapper on Arch Linux for Btrfs if you use the Archinstall suggested partition layout. I will walk you through the process of installing Snapper with that layout <strong>ONLY</strong>.</p>
         
-        <hr><p>Published on 2025-03-26 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-07-12</p>]]>
+        <hr><p>Published on 2025-03-26 at <a href='http://localhost:1313/'>Likelyblue</a>, last modified on 2025-10-05</p>]]>
       </description>
       
         <category>Guide</category>

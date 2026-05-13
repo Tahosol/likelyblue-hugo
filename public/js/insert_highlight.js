@@ -53,15 +53,14 @@
         codeFigcaptionBottom.classList.remove("has-link");
       }
       if (fileName || url) {
-        codeFigcaptionBottom.style.marginBottom = "0.5em";
+        codeFigcaptionBottom.style.marginBottom = "12px";
       } else {
         codeFigcaptionBottom.style.marginBottom = "0";
       }
     });
     _$$(".code-expand").forEach((element) => {
       element.off("click").on("click", () => {
-        const figure = element.closest("div.highlight");
-        figure.classList.toggle("code-closed");
+        element.closest("div.highlight")?.classList.toggle("code-closed");
       });
     });
     _$$("div.highlight").forEach((element) => {
@@ -78,7 +77,7 @@
       if (!codeLanguage) {
         return;
       }
-      const langName = codeLanguage.replace("line-numbers", "").trim().replace("language-", "").trim().toUpperCase();
+      const langName = codeLanguage.replace("line-numbers", "").replace("language-", "").trim().toUpperCase();
       const wrapper = code.closest(".highlight");
       if (wrapper) {
         const lang = wrapper.querySelector(".code-lang");
@@ -90,6 +89,15 @@
     if (!window.ClipboardJS) {
       return;
     }
+    const getLocalizedText = (config, defaultText) => {
+      if (typeof config === "string") return config;
+      if (typeof config === "object") {
+        const lang = document.documentElement.lang.toLowerCase();
+        const key = Object.keys(config).find((k) => k.toLowerCase() === lang);
+        if (key && config[key]) return config[key];
+      }
+      return defaultText;
+    };
     const clipboard = new ClipboardJS(".code-copy", {
       text: (trigger) => {
         let td = trigger.parentNode.parentNode.parentNode.querySelector(
@@ -98,10 +106,10 @@
         if (!td) {
           td = trigger.parentNode.parentNode.parentNode.querySelector("code");
         }
-        let selectedText = td ? td.innerText : "";
+        let selectedText = td?.innerText || "";
         if (window.siteConfig.clipboard.copyright?.enable) {
           if (selectedText.length >= window.siteConfig.clipboard.copyright?.count) {
-            selectedText = selectedText + "\n\n" + window.siteConfig.clipboard.copyright?.content || "";
+            selectedText += "\n\n" + window.siteConfig.clipboard.copyright?.content || "";
           }
         }
         return selectedText;
@@ -111,16 +119,10 @@
       e.trigger.classList.add("icon-check");
       e.trigger.classList.remove("icon-copy");
       const successConfig = window.siteConfig.clipboard.success;
-      let successText = "Copy successfully (*^\u25BD^*)";
-      if (typeof successConfig === "string") {
-        successText = successConfig;
-      } else if (typeof successConfig === "object") {
-        const lang = document.documentElement.lang;
-        const key = Object.keys(successConfig).find((key2) => key2.toLowerCase() === lang.toLowerCase());
-        if (key && successConfig[key]) {
-          successText = successConfig[key];
-        }
-      }
+      const successText = getLocalizedText(
+        successConfig,
+        "Copy successfully (*^\u25BD^*)"
+      );
       _$("#copy-tooltip").innerText = successText;
       _$("#copy-tooltip").style.opacity = "1";
       setTimeout(() => {
@@ -134,16 +136,10 @@
       e.trigger.classList.add("icon-times");
       e.trigger.classList.remove("icon-copy");
       const failConfig = window.siteConfig.clipboard.fail;
-      let failText = "Copy failed (\uFF9F\u22BF\uFF9F)\uFF82";
-      if (typeof failConfig === "string") {
-        failText = failConfig;
-      } else if (typeof failConfig === "object") {
-        const lang = document.documentElement.lang;
-        const key = Object.keys(failConfig).find((key2) => key2.toLowerCase() === lang.toLowerCase());
-        if (key && failConfig[key]) {
-          failText = failConfig[key];
-        }
-      }
+      const failText = getLocalizedText(
+        failConfig,
+        "Copy failed (\uFF9F\u22BF\uFF9F)\uFF82"
+      );
       _$("#copy-tooltip").innerText = failText;
       _$("#copy-tooltip").style.opacity = "1";
       setTimeout(() => {
@@ -161,8 +157,6 @@
         { once: true }
       );
     }
-    if (window.AOS) {
-      AOS.refresh();
-    }
+    window.AOS?.refresh();
   })();
 })();

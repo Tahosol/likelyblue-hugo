@@ -76,7 +76,9 @@
           localStorage.setItem("dark_mode", config);
           themeButton.id = `nav-${config === "true" ? "moon" : config === "false" ? "sun" : "circle-half-stroke"}-btn`;
           document.body.dispatchEvent(
-            new CustomEvent(`${isDark ? "dark" : "light"}-theme-set`)
+            new CustomEvent("reimu:theme-set", {
+              detail: { isDark, mode: config }
+            })
           );
         }
         const savedMode = localStorage.getItem("dark_mode") || document.documentElement.getAttribute("data-theme-mode") || "auto";
