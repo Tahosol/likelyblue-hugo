@@ -15,12 +15,13 @@ My first language was technically JavaScript, but a friend of mine told me it wa
 
 - Rust(My main tool)
 - Kotlin(I am bad)
+- Java(I am bad)
 - Python(I am forced to learn this)
-- C(Learning)
+- C(It will take me a life time to learn it)
 
 ## Projects
 
-- [Azul box](https://github.com/Tahosol/azul-box) a utility box for yt-dlp and ffmpeg with musicbrainz Metadata.
+- [Azul box](https://codeberg.org/Tahoso/azul-box) a utility box for yt-dlp and ffmpeg with musicbrainz Metadata.
 
 {{< rawhtml >}}
 
